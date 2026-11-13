@@ -1,0 +1,42 @@
+LE NID À MOTS — installation pour usage personnel
+==================================================
+
+Ce dossier contient :
+  index.html            l'application complète (un seul fichier)
+  manifest.webmanifest  la fiche d'identité de l'appli (nom, icône, couleurs)
+  sw.js                 le script qui la fait fonctionner sans connexion
+  icon-192.png, icon-512.png   les icônes
+
+A. SUR ORDINATEUR, SANS RIEN INSTALLER
+   1. Double-cliquez sur index.html : il s'ouvre dans votre navigateur et fonctionne sans connexion.
+   2. Pour l'avoir comme une application : dans Chrome ou Edge, menu ⋮ → « Caster, enregistrer et partager »
+      (ou « Plus d'outils ») → « Créer un raccourci… » → cochez « Ouvrir dans une fenêtre ».
+      Une icône apparaît sur le bureau / dans le menu Démarrer.
+   Vos textes sont enregistrés dans ce navigateur, sur cet ordinateur. Ne supprimez pas les
+   « données de site » de ce fichier, et faites une sauvegarde de temps en temps (Mon nid).
+
+B. SUR TÉLÉPHONE ET POUR UNE VRAIE INSTALLATION (icône, hors ligne)
+   Le navigateur du téléphone n'installe que des applis servies par un site en https.
+   1. Mettez TOUT le contenu de ce dossier sur un hébergement gratuit, par exemple :
+      - Netlify Drop (app.netlify.com/drop) : glissez le dossier entier, vous obtenez une adresse.
+      - ou GitHub Pages, Cloudflare Pages, Vercel.
+   2. Ouvrez l'adresse obtenue sur le téléphone :
+      - Android (Chrome) : menu ⋮ → « Ajouter à l'écran d'accueil » ou « Installer l'application ».
+      - iPhone (Safari) : bouton Partager → « Sur l'écran d'accueil ».
+      - Ordinateur (Chrome/Edge) : icône « Installer » dans la barre d'adresse.
+   3. L'appli fonctionne ensuite sans connexion sur cet appareil.
+   L'adresse n'est connue que de vous ; vos textes ne sont de toute façon jamais envoyés au site,
+   ils restent dans l'appareil.
+
+C. PASSER D'UN APPAREIL À L'AUTRE
+   Chaque appareil (et chaque façon d'ouvrir l'appli) a ses propres textes.
+   Mon nid → « Télécharger la sauvegarde » sur l'un, puis « Restaurer depuis un fichier » sur l'autre.
+
+D. METTRE À JOUR
+   Remplacez les fichiers par les nouveaux (même procédure). Vos textes ne sont pas dans ces
+   fichiers : ils restent dans le navigateur.
+
+E. CE QUI NE MARCHE PAS HORS LIGNE
+   La relecture par Claude, la traduction, la dictée et la voix de Claude ont besoin de la page
+   sur claude.ai. Tout le reste (écriture, créatures, synonymes, exports Word/EPUB/PDF, lecture
+   avec la voix de l'appareil) fonctionne partout.
