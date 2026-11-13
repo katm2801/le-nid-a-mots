@@ -1,0 +1,7 @@
+name = "le-nid-a-mots"
+pages_build_output_dir = "."
+compatibility_date = "2025-11-13"
+
+[[kv_namespaces]]
+binding = "NID_KV"
+id = "VOTRE_ID_KV_ICI"
